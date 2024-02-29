@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    padding: 0.5rem 1.1rem;
+    width: 100vw;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo img {
+    width: 70%;
+}
+
+.navbar__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.menu__icon--open {
+    padding: 1rem 0;
+    text-align: end;
+}
+
+.hidden {
+    display: none;
+}
+
+.main__section{
+    margin-bottom: 4.35rem;
+}
+
+.main__img {
+    background-image: url('./assets/images/image-web-3-mobile.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 1.5rem;
+}
+
+.main__title {
+    font-size: 2.7rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+}
+
+.main__paragraph {
+    padding: 1.5rem 0;
+    line-height: 1.7rem;
+    color: hsl(236, 13%, 42%);
+}
+
+.main__button {
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    border: none;
+    border-radius: 1px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-top: 0.2rem;    
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+}
+
+.aside__container {
+    background-color: hsl(240, 100%, 5%);
+    padding: 1.1rem 1.1rem 0.08rem;
+    /* margin-bottom: 4.1rem; */
+}
+
+
+.aside__container section {
+    color: hsl(36, 100%, 99%);
+    margin: 1rem 0;
+    /* padding: 0 0.6rem;   */
+    padding-right: 0.6rem;
+}
+
+.aside__container h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 2.2rem;
+    font-weight: 700;
+    
+}
+
+.aside__container h3 {
+    font-size: 1.3rem;
+    margin: 2.1rem 0 0.7rem;
+}
+
+.aside__container p {
+    color: hsla(233, 8%, 79%, 0.514);
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+    font-size: 1.01rem;
+}
+
+.divider {
+    border-bottom: solid 1.5px hsla(233, 8%, 79%, 0.514);
+}
+
+article {
+    margin: 4rem 0;
+}
+
+.article__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.7rem;
+    
+}
+
+.article__section img {
+    width: 30%;
+}
+
+.article__section--info {
+    margin-left: 1.1rem;
+    
+}
+
+.article__section--info h2 {
+    font-size: 2rem;
+    color: hsl(233, 8%, 79%);
+}
+
+.article__section--info h4 {
+    color: hsl(240, 100%, 5%);
+    font-size: 1.18rem;
+    font-weight: 800;
+    margin: 1rem 0;
+    
+}
+
+.article__section--info p{
+    line-height: 1.65rem;
+    color: hsl(236, 13%, 42%);
+
+}
+
+
+/* ### Primary
+
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+
+### Neutral
+
+Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%) */
