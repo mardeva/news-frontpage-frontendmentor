@@ -1,9 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-size: 15px;
     font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -11,44 +11,9 @@ html {
 }
 
 body {
+    margin: auto;
     padding: 0.5rem 1.1rem;
     width: 100vw;
-    margin: auto;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-}
-
-.logo img {
-    width: 70%;
-}
-
-.navbar__list {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
-
-a {
-    color: hsl(240, 100%, 5%);
-    text-decoration: none;
-}
-
-a:hover {
-    color: hsl(5, 85%, 63%);
-}
-
-.menu__icon--open {
-    padding: 1rem 0;
-    text-align: end;
-}
-
-.hidden {
-    display: none;
 }
 
 .main__section {
@@ -71,16 +36,16 @@ a:hover {
 }
 
 .main__paragraph {
-    padding: 1.5rem 0;
-    line-height: 1.7rem;
     color: hsl(236, 13%, 42%);
+    line-height: 1.7rem;
+    padding: 1.5rem 0;
 }
 
 .main__button {
     background-color: hsl(5, 85%, 63%);
-    color: hsl(36, 100%, 99%);
     border: none;
     border-radius: 1px;
+    color: hsl(36, 100%, 99%);
     font-size: 0.9rem;
     font-weight: 600;
     letter-spacing: 4px;
@@ -93,82 +58,9 @@ a:hover {
     background-color: hsl(240, 100%, 5%);
 }
 
-.aside__container {
-    background-color: hsl(240, 100%, 5%);
-    padding: 1.1rem 1.1rem 0.08rem;
-}
-
-.aside__container section {
-    color: hsl(36, 100%, 99%);
-    margin: 1rem 0;
-    padding-right: 0.6rem;
-}
-
-.aside__container h2 {
-    color: hsl(35, 77%, 62%);
-    font-size: 2.2rem;
-    font-weight: 700;
-}
-
-.aside__container h3 {
-    font-size: 1.3rem;
-    margin: 2.1rem 0 0.7rem;
-}
-
-.aside__container h3:hover {
-    color: hsl(35, 77%, 62%);
-}
-
-.aside__container p {
-    color: hsla(233, 91%, 18%, 0.514);
-    color: hsl(233, 8%, 79%, 0.6);
-    line-height: 1.6rem;
-    margin-bottom: 2rem;
-    font-size: 1.01rem;
-}
 
 .divider {
     border-bottom: solid 1.5px hsla(233, 8%, 79%, 0.514);
-}
-
-article {
-    margin: 4rem 0;
-}
-
-.article__section {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.7rem;
-}
-
-.article__section img {
-    width: 30%;
-    aspect-ratio: 26/33;
-}
-
-.article__section--info {
-    margin-left: 1.1rem;
-}
-
-.article__section--info h2 {
-    font-size: 2rem;
-    color: hsl(233, 8%, 79%);
-}
-
-.article__section--info h4 {
-    color: hsl(240, 100%, 5%);
-    font-size: 1.18rem;
-    font-weight: 800;
-    margin: 1rem 0;
-}
-
-.article__section--info h4:hover {
-    color: hsl(5, 85%, 63%);
-}
-
-.article__section--info p {
-    line-height: 1.65rem;
-    color: hsl(236, 13%, 42%);
 }
 
 /* Media  */
@@ -179,27 +71,11 @@ article {
         width: 80%;
     }
 
-    nav {
-        padding: 5.2rem 0 2.6rem;
-    }
-
-    .logo img {
-        width: 100%;
-    }
-
-    .navbar__list {
-        flex-direction: row;
-    }
-
-    .navbar__list li {
-        padding: 1.3rem;
-    }
-
     main {
         display: grid;
+        column-gap: 2.2rem;
         grid-template-columns: 2fr 2fr 22rem;
         grid-template-rows: 2fr 1fr;
-        column-gap: 2.2rem;
         width: 75vw;
     }
 
@@ -216,8 +92,8 @@ article {
 
     .main__section-text {
         display: flex;
-        flex-direction: row;
         align-items: center;
+        flex-direction: row;
         gap: 1.4rem;
         height: 200px;
     }
@@ -240,42 +116,4 @@ article {
         padding: 1.1rem 2.2rem;
     }
 
-    .aside__container {
-        grid-column: 3/4;
-        height: fit-content;
-        width: 350px;
-        margin-left: 0.9rem;
-        padding: 1.1rem 1.3rem 0.55rem;
-    }
-
-    .aside__container h2 {
-        font-size: 2.5rem;
-        padding-top: 0.6rem;
-    }
-
-    article {
-        grid-column: 1/4;
-        grid-row: 2/3;
-        display: flex;
-        margin-top: 3rem;
-    }
-
-    .article__section img {
-        height: 130px;
-    }
-
-
 }
-
-
-/* ### Primary
-
-- Soft orange: hsl(35, 77%, 62%)
-- Soft red: hsl(5, 85%, 63%)
-
-### Neutral
-
-Off-white: hsl(36, 100%, 99%)
-Grayish blue: hsl(233, 8%, 79%)
-Dark grayish blue: hsl(236, 13%, 42%)
-Very dark blue: hsl(240, 100%, 5%) */

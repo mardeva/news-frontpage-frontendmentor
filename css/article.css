@@ -1,0 +1,57 @@
+article {
+    margin: 4rem 0;
+}
+
+.article__section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.7rem;
+}
+
+.article__section img {
+    width: 30%;
+    aspect-ratio: 26/33;
+}
+
+.article__section--info {
+    margin-left: 1.1rem;
+}
+
+.article__section--info h2 {
+    font-size: 2rem;
+    color: hsl(233, 8%, 79%);
+}
+
+.article__section--info h4 {
+    color: hsl(240, 100%, 5%);
+    font-size: 1.18rem;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+
+.article__section--info h4:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.article__section--info p {
+    line-height: 1.65rem;
+    color: hsl(236, 13%, 42%);
+}
+
+/* Media  */
+
+
+@media (width >=1440px) {
+
+    article {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        display: flex;
+        margin-top: 3rem;
+    }
+
+    .article__section img {
+        height: 130px;
+    }
+
+}

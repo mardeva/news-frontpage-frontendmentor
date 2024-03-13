@@ -1,0 +1,52 @@
+.aside__container {
+    background-color: hsl(240, 100%, 5%);
+    padding: 1.1rem 1.1rem 0.08rem;
+}
+
+.aside__container section {
+    color: hsl(36, 100%, 99%);
+    margin: 1rem 0;
+    padding-right: 0.6rem;
+}
+
+.aside__container h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.aside__container h3 {
+    font-size: 1.3rem;
+    margin: 2.1rem 0 0.7rem;
+}
+
+.aside__container h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.aside__container p {
+    color: hsl(233, 8%, 79%, 0.6);
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+    font-size: 1.01rem;
+}
+
+
+/* Media  */
+
+@media (width >=1440px) {
+
+    .aside__container {
+        grid-column: 3/4;
+        height: fit-content;
+        margin-left: 0.9rem;
+        padding: 1.1rem 1.3rem 0.55rem;
+        width: 350px;
+    }
+
+    .aside__container h2 {
+        font-size: 2.5rem;
+        padding-top: 0.6rem;
+    }
+
+}

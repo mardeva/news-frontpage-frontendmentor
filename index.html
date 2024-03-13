@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/aside.css">
+  <link rel="stylesheet" href="./css/article.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,10 +25,10 @@
         <img src="./assets/images/logo.svg" alt="logo">
       </div>
 
-      <div>
-        <img class="menu__icon--open hidden" id="menu__open" src="./assets/images/icon-menu.svg" alt="icon menu">
-        <img class="menu__icon--close hidden" id="menu__close" src="./assets/images/icon-menu-close.svg" alt="icon menu close">
-        <ul class="navbar__list ">
+      <img class="menu__icon--open" id="menu__open" src="./assets/images/icon-menu.svg" alt="icon menu">
+      <div class="menu__container hidden" id="menu__container">
+        <img class="menu__icon--close" id="menu__close" src="./assets/images/icon-menu-close.svg" alt="icon menu close">
+        <ul class="navbar__list" id="navbar__list">
           <li><a href="#" rel="noreferrer">Home</a></li>
           <li><a href="#" rel="noreferrer">New</a></li>
           <li><a href="#" rel="noreferrer">Popular</a></li>
