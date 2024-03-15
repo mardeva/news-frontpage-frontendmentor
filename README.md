@@ -23,7 +23,8 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ### Screenshots
 
-![Mobile](screenshots/screen-mobile.png) ![Web](screenshots/screen-web.png)
+![Web](screenshots/screen-web.png)
+![Mobile](screenshots/screen-mobile.png) 
 
 ### Links
 
